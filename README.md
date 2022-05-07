@@ -6,7 +6,7 @@
 
 This is a node app that will generate a README.md for you.
 
-##Table of Contents
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)

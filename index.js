@@ -75,6 +75,17 @@ const questions = [
     },
     {
       type: 'input',
+      message: 'Enter how to use the app',
+      name: 'usage',
+      validate: function (answer) {
+        if (answer.length === 0) {
+              return console.log("Please enter a valid description.")
+        };
+        return true;
+      }
+    },
+    {
+      type: 'input',
       message: 'Enter github username.',
       name: 'github',
       validate: function (answer) {

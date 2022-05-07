@@ -3,7 +3,7 @@ function renderLicenseBadge(license) {
   if (license == "none") {
     return "";
   }
-  return `[${license} Badge](http://img.shields.io/badge/License-${license}-blue)`;
+  return `![${license} Badge](https://img.shields.io/badge/License-${license}-blue)`;
 }
 
 // If there is no license, return an empty string
@@ -21,7 +21,7 @@ function renderLicenseSection(license) {
   }
   return `## License
   
-  This application is covered under the ${license} license. You can read more about it here: [${license}](${renderLicenseLink})`;
+  This application is covered under the ${license} license. You can read more about it here: [${license}](${renderLicenseLink(license)})`;
 }
 
 // generate function
@@ -34,7 +34,7 @@ ${renderLicenseBadge(data.license)}
 
 ${data.description}
 
-##Table of Contents
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -50,8 +50,6 @@ ${data.installation}
 ## Usage
 
 ${data.usage}
-
-## License
 
 ${renderLicenseSection(data.license)}
 

@@ -18,6 +18,7 @@ This is a node app that will generate a README.md for you.
 ## Installation
 
 No installation needed, just run node index in your terminal.
+[Walkthrough Video](https://youtu.be/bSO6Y_xDe3k)
 
 ## Usage
 

@@ -12,7 +12,6 @@ This is a node app that will generate a README.md for you.
 - [Usage](#usage)
 - [License](#license)
 - [Contribution](#contribution)
-- [Tests](#tests)
 - [Questions](#questions)
 
 ## Installation
